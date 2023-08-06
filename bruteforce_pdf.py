@@ -32,7 +32,7 @@ def open_encrypted_pdf(file_path, password):
         print(f"An error occurred: {str(e)}")
 
 if __name__ == "__main__":
-    encrypted_pdf_path = "/home/darkarmy/mod1.pdf"
-    password_file_path = "/usr/share/wordlists/rockyou.txt"
+    encrypted_pdf_path = "path_to_encrypted_pdf.pdf
+    password_file_path = "/usr/share/wordlists/rockyou.txt" #your_password_here
 
     open_encrypted_pdf(encrypted_pdf_path, password_file_path)
